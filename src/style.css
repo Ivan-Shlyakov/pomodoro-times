@@ -1,0 +1,44 @@
+.active-timer-button {
+    border: none;
+    margin: 0;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 2px 12px;
+    height: 28px;
+    cursor: pointer;
+    background: none rgba(0, 0, 0, 0.15);
+    box-shadow: none;
+    color: white;
+    opacity: 1;
+    font-weight: bold;
+}
+
+.inactive-timer-button {
+    border: none;
+    color: white;
+    margin: 0;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 2px 12px;
+    height: 28px;
+    cursor: pointer;
+    background: none;
+    box-shadow: none;
+    font-weight: 300;
+}
+
+.add-task-button {
+    box-sizing: border-box;
+    height: 64px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    opacity: 0.8;
+    margin: 12px auto 0;
+    border: 2px dashed rgba(255, 255, 255, 0.4);
+    width: 480px;
+
+}

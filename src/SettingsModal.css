@@ -1,0 +1,62 @@
+.settings-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
+    color: #000000;
+    text-align: center;
+}
+
+.settings-content {
+    margin-bottom: 20px;
+}
+
+.settings-content h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333333;
+}
+
+.settings-content label {
+    font-size: 18px;
+    margin-bottom: 10px;
+    display: block;
+    color: #333333;
+}
+
+.settings-content input {
+    width: 100px;
+    font-size: 16px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: block;
+    margin: 10px auto;
+}
+
+.settings-buttons {
+    text-align: center;
+}
+
+.settings-buttons button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.settings-buttons button.save-btn {
+    background-color: #5095ea;
+    color: white;
+}
+
+.settings-buttons button.cancel-btn {
+    background-color: #969696;
+    color: white;
+}
